@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body class="bg-gray-500">
+        <section class="bg-white rounded-3xl p-4 border-solid border-2 border-black">
+            <form>
+                <input type="text" placeholder="0" class="screen w-full mx-auto overflow-hidden p-2 bg-white border-solid border-2 border-black text-black text-right text-4xl l=">
+            </form>
+            
+            <div class="buttons grid grid-cols-4 gap-3 p-2">
+               
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button type="button" class="clear bg-gray-300 border border-gray-400 hover:bg-blue-100 rounded-full p-1 m-1 text-lg drop-shadow rounded-lg" >AC</button>
+
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="7">7</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-lg rounded-lg" data-num="8">8</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="9">9</button>
+                <button type="button" class="btn bg-yellow-500 border border-yellow-500 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="/">/</button>
+                
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="4">4</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-lg rounded-lg" data-num="5">5</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="6">6</button>
+                <button type="button"class="btn bg-yellow-500 border border-yellow-500 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="x">x</button>
+
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="1">1</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-lg rounded-lg" data-num="2">2</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="3">3</button>
+                <button type="button" class="btn bg-yellow-500 border border-yellow-500 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="-">-</button>
+
+
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="0">0</button>
+                <button type="button" class="btn bg-white-100 border border-black-400 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num=".">.</button>
+                <button type="button" class="equal bg-yellow-500 border border-yellow-500 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="=">=</button>
+                <button type="button" class="btn bg-yellow-500 border border-yellow-500 hover:bg-blue-100 rounded-full p-1 m-1 text-xl rounded-lg" data-num="+">+</button>
+
+
+
+                
+            </div>
+        </section>
+        <script src="main.js"></script>
+    </body>
+
+</html>
